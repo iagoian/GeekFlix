@@ -1,0 +1,166 @@
+:root {
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+
+* { /*resete do html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos-base*/
+
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: #ffff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--preto);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+header .logo {
+    margin-left: 15px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffff;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnsearch {
+    background-color: #e50914;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px!important;
+    margin-left: 10px;
+    padding-bottom: 20px;  
+}
+
+
+/*filme-principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), 
+    url(../img/capa-HOTD.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #ffff;
+
+    padding: 15px 30px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #ffff;
+    color: #141414;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.carrosel-filmes .titulo {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.carrosel-filmes #linkbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+    
+.carrosel-series .titulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.carrosel-series #linkbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rodape {
+    height: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
