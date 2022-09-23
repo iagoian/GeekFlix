@@ -50,6 +50,12 @@ header nav a:hover {
 .d-flex {
     display: flex;
     justify-content: space-between;
+    
+}
+
+#busca {
+    border-radius: 6px;
+    text-align: center;
 }
 
 #btnsearch {
@@ -58,7 +64,9 @@ header nav a:hover {
     height: 30px;
     margin-right: 10px!important;
     margin-left: 10px;
-    padding-bottom: 20px;  
+    padding-bottom: 25px;
+    border-radius: 6px;
+    text-align: justify!important;  
 }
 
 
@@ -95,6 +103,7 @@ header nav a:hover {
 .botoes {
     margin-left: 40px;
     margin-bottom: 10px;
+    border-radius: 6px;
 }
 
 .botao {
@@ -110,6 +119,7 @@ header nav a:hover {
     transition: .3s ease all;
 
     text-decoration: none;
+    border-radius: 6px;
 }
 
 .botao:hover {
