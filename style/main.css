@@ -35,6 +35,8 @@ header .container {
     left: 0;
     z-index: 1030;
 
+    height: 5rem;
+
 }
 
 header .logo {
@@ -129,8 +131,8 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), 
-    url(../img/capa-HOTD.jpg);
-    background-size: cover;
+    url(../img/HOTD.jpg);
+    background-size: contain;
     background-position: center;
     height: 100%;
     width: 100%;
