@@ -26,7 +26,7 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: var(--preto);
 
     position: fixed;
@@ -90,8 +90,8 @@ header nav a:hover {
     
     padding: 5px;
     position: relative;
-    height:26px;
-    width:50px;
+    height: 25px;
+    width: 55px;
 
     transform: scale(1.5);
 }
