@@ -94,7 +94,7 @@ header nav a:hover {
     padding: 5px;
     position: relative;
     height: 25px;
-    width: 55px;
+    width: 50px;
 
     transform: scale(1.5);
 }
@@ -134,6 +134,7 @@ header nav a:hover {
     url(../img/HOTD.jpg);
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 
