@@ -132,7 +132,7 @@ header nav a:hover {
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), 
     url(../img/HOTD.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
